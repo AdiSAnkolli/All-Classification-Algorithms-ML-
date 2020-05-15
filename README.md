@@ -1,4 +1,6 @@
-#All Classification Algorithms
+#All Classification Algorithms:-
+
+
 I'm Planning to implement all these classification algorithms on a dataset which contains all stats of pokemons of first 5 generations!!
 Interesting, isn't it? But what will my algorithm classify/predict? Well,my algorithms will predict whether the pokemon is legendary or not based on all the stats mentioned in the dataset!! If possible, i'll visualize all the results on Orange Data Mining/ Data Visualization tool for a better understanding, and it will also give an exciting feeling to it!!
 Let's get right into it then!!!
