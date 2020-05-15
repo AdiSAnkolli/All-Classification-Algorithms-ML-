@@ -8,5 +8,9 @@ Let's get right into it then!!!
 
 1) Decison Tree:-
 A decision tree is a flowchart-like structure in which each internal node represents a "test" on an attribute (e.g. whether a coin flip comes up heads or tails), each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes).
-So, in this scenario, the class label, or the column that is to be predicted is the "Legendary" column which states whether the pokemon is legendary or not.
+So, in this scenario, the class label, or the column that is to be predicted is the "Legendary" column which states whether the pokemon is legendary or not. Do check out the Tree Viewer in the ows file, which will precisely show you the nodes,which means, in this scenario, it will show you exactly what factors makes a pokemon legendary.
 
+
+2) KNN (K-Nearest Neighbour):-
+K nearest neighbors is a simple algorithm that stores all available cases and classifies new cases based on a similarity measure (e.g., distance functions). KNN has been used in statistical estimation and pattern recognition already in the beginning of 1970's as a non-parametric technique.
+What KNN does is, it calculates distance (it can be Euclidean, Manhattan, etc. i went ahead with Euclidean) of every attribute (i.e column) of a new entry or test data, from every other previous entry, and then lists down specified (n) number of tuples that are closest to the new or test data. Out of those n tuples, the class label (or target variable) which appears the most is given to the new/test data. It works better when feature variables (the attributes which are studied) are numeric and the target variable (the attribute which is predicted) is a categorical value. Do check out the Linear Projection in ows file,and play around with it!! You'll never know, you might find something new and interesting!!!
