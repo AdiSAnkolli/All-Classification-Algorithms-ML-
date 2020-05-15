@@ -24,4 +24,4 @@ A,B are events
 P(A|B) is probability of A given that B is True
 P(B|A) is probability of B given that A is True
 P(A),P(B) are individual probabilities of A and B
-
+How will that help us in predicting whether a pokemon is legendary or not? Now, comditional probability of whether a pokemon is legendary or not legendary will be calculated, with respect to the stats provided in the training data. If the probability of pokemon with current stats being legendary is higher than it not being legendary, then it is deemed/predicted as legendary, and vice versa.
